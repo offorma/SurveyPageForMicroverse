@@ -6,14 +6,55 @@
         <header>
             <h1 id="title">Survey Form</h1>
         </header>
-        <p id="description">Let us know how we can improve freeCodeCamp</p>
-        <form action="" id="survey-form">
-            <label id="name-label">Name</label>
-            <input type="text" id="name" name="firstName"/>
 
-            <input type="email" id="email" name="emai"/>
-            <input type="number" min="4" max="20" id="number" name="number" />
+        <section>
+            <p id="description">Let us know how we can improve freeCodeCamp</p>
+            <form action="" id="survey-form">
+                <label id="name-label">Name</label>
+                <input type="text" id="name" name="firstName" placeholder="first name"/> <br/> <br/>
 
-        </form>
+                <label id="email-label">email</label>
+                <input type="email" id="email" name="emai" placeholder="email"/>
+
+                <label id="number-label">number</label>
+                <input type="number" min="4" max="20" id="number" name="number" placeholder="number"/>
+
+                <label>What do you like most in FCC:</label>
+                <select id="dropdown".>
+                  <option selected>Student</option>
+                  <option>Full time job</option>
+                  <option>Full time learner</option>
+                  <option>Prefer not to say</option>
+                  <option>Other</option>
+                </select>
+
+                <label> How likely is that you would recommend freeCodeCamp to a friend?</label>
+                <input type="radio" name="reccomend" value="male"> Definitely<br>
+                <input type="radio" name="reccomend" value="female"> Maybe<br>
+                <input type="radio" name="reccomend" value="other"> Not sure
+
+                <label>Things that should be improved in the future
+    (Check all that apply)</label>  
+                <input type="checkbox" name="front_end" value="male"> Front-end Projects<br>
+                <input type="checkbox" name="back_end" value="female"> Back-end Projects<br>
+                <input type="checkbox" name="data_v" value="other">Data Visualization<br>
+                <input type="checkbox" name="chall" value="other">Challenges<br>
+                <input type="checkbox" name="open_s" value="other"> Open Source Community <br/>
+                <input type="checkbox" name="gitter" value="male"> Gitter help rooms<br>
+                <input type="checkbox" name="video" value="female"> Videos<br>
+                <input type="checkbox" name="city_meetups" value="other"> City Meetups<br>
+                <input type="checkbox" name="wiki" value="other"> Wiki<br>
+                <input type="checkbox" name="forums" value="other"> Forums<br>
+                <input type="checkbox" name="add_courses" value="other"> Additional Courses<br>
+
+                <label id="comment-label">Any Comments or Suggestions?</label>
+                <textarea></textarea>
+
+
+                <input type="submit" value="submit">
+
+
+            </form>
+        </section>
     </body>
 </html>
