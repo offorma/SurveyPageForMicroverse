@@ -14,26 +14,27 @@
                 <input type="text" id="name" name="firstName" placeholder="first name"/> <br/> <br/>
 
                 <label id="email-label">email</label>
-                <input type="email" id="email" name="emai" placeholder="email"/>
+                <input type="email" id="email" name="emai" placeholder="email"/><br>
 
                 <label id="number-label">number</label>
-                <input type="number" min="4" max="20" id="number" name="number" placeholder="number"/>
+                <input type="number" min="4" max="20" id="number" name="number" placeholder="number"/><br>
 
-                <label>What do you like most in FCC:</label>
+                <label id="dropdown-label">What do you like most in FCC:</label>
                 <select id="dropdown".>
                   <option selected>Student</option>
                   <option>Full time job</option>
                   <option>Full time learner</option>
                   <option>Prefer not to say</option>
                   <option>Other</option>
-                </select>
-
-                <label> How likely is that you would recommend freeCodeCamp to a friend?</label>
+                </select><br>
+            <div>
+                <label id="radio-label"> How likely is that you would recommend freeCodeCamp to a friend?</label>
                 <input type="radio" name="reccomend" value="male"> Definitely<br>
                 <input type="radio" name="reccomend" value="female"> Maybe<br>
-                <input type="radio" name="reccomend" value="other"> Not sure
+                <input type="radio" name="reccomend" value="other"> Not sure<br>
+            </div>
 
-                <label>Things that should be improved in the future
+                <label id="checkbox-label">Things that should be improved in the future
     (Check all that apply)</label>  
                 <input type="checkbox" name="front_end" value="male"> Front-end Projects<br>
                 <input type="checkbox" name="back_end" value="female"> Back-end Projects<br>
@@ -48,10 +49,10 @@
                 <input type="checkbox" name="add_courses" value="other"> Additional Courses<br>
 
                 <label id="comment-label">Any Comments or Suggestions?</label>
-                <textarea></textarea>
+                <textarea></textarea><br>
 
 
-                <input type="submit" value="submit">
+                <input class ="submit" type="submit" value="submit">
 
 
             </form>
